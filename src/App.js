@@ -6,12 +6,12 @@ import ChartPage from './components/chartPage';
 function App() {
   return (
     <BrowserRouter>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstat/3.0.1/dist/jstat.min.js"></script>
       <div className="App">
-        <header className="App-header">
           <Routes>
             <Route path="/" element={<ChartPage />} />
           </Routes>
-        </header>
+        
       </div>
     </BrowserRouter>
   );
