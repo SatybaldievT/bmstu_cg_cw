@@ -6,10 +6,17 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "bidi-js": "^1.0.3",
+    "jstat": "^1.9.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^7.0.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "three": "^0.171.0",
+    "three-mesh-bvh": "^0.8.3",
+    "web-vitals": "^2.1.4",
+    "webgl-sdf-generator": "^1.1.1",
+    "zustand": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +41,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
   }
 }

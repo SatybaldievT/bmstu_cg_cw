@@ -1,0 +1,9 @@
+{
+    "rules": {
+      "no-restricted-globals": "off"
+    },
+    "globals": {
+    "jStat": true
+  }
+  }
+  

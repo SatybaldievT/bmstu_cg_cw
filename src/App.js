@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ChartPage from './components/chartPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jstat/3.0.1/dist/jstat.min.js"></script>
+      <div className="App">
+          <Routes>
+            <Route path="/" element={<ChartPage />} />
+          </Routes>
+        
+      </div>
+    </BrowserRouter>
   );
 }
 
